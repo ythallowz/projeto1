@@ -13,8 +13,8 @@ passo 8 - mostrar a informação do dragão referente ao botão clicado
 
 //passo 1 - dar um jeito de pegar o elemento HTML dos botões 
 const botoesCarrossel = document.querySelectorAll(".botao");
-const iamgens = document.querySelectorAll(".iamgem");
-const infomracoes = document.querySelectorAll(".informacoes");
+const imagens = document.querySelectorAll(".imagem");
+const informacoes = document.querySelectorAll(".informacoes");
 
 //passo 2 - dar um jeito de identificar o clique do usuário no botão
 botoesCarrossel.forEach((botao, indice) => {
